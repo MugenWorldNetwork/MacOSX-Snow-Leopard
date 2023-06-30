@@ -122,7 +122,7 @@ function FooterWindow({ id, icon, title, onMouseDown, isFocus }) {
 const Container = styled.footer`
   height: 30px;
   background: linear-gradient(
-    to bottom,
+    to top,
     #1f2f86 0,
     #3165c4 3%,
     #3682e5 6%,
@@ -154,7 +154,7 @@ const Container = styled.footer`
     background-color: #0b77e9;
     flex-shrink: 0;
     background: linear-gradient(
-      to bottom,
+      to top,
       #0c59b9 1%,
       #139ee9 6%,
       #18b5f2 10%,
